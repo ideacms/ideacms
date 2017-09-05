@@ -1,0 +1,11 @@
+{
+	"name": "ideacms/ideacms",
+	"description": "A test of a new idea for a cms",
+	"authors": [
+		{
+			"name": "Nagrom",
+			"email": "mo.delavenne@gmail.com"
+		}
+	],
+	"require": {}
+}
