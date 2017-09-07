@@ -1,2 +1,9 @@
 <?php
-// bootstrap de l'app
+/**
+ * IdeaCMS - A Test
+ *
+ * @package  Ideacms
+ * @author   Nagrom
+ */
+
+require __DIR__.'/../core/app.php';
