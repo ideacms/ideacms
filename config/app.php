@@ -6,7 +6,7 @@ return [
 	/*
 	| Application Name
 	*/
-	'name' => 'Laravel',
+	'name' => 'IdeaCMS',
 
 	/*
 	| Application Environment
