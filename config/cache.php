@@ -12,6 +12,6 @@ return [
 		'database' => 0,
 	],
 	
-	'prefix' => 'laravel',
+	'prefix' => 'app',
 	
 ];

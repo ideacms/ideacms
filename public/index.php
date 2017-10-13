@@ -6,4 +6,4 @@
  * @author   Nagrom
  */
 
-require __DIR__.'/../core/app.php';
+require __DIR__.'/../app/bootstrap.php';
