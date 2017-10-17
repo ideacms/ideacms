@@ -12,17 +12,37 @@ class Post extends Model
 
 	// déclarations des relations
 	public function category() {
-		return $this->belongsTo('App/Categroy');
+		return $this->belongsTo('Category');
 	}
 
 	public function tags() {
-		return $this->belongsToMany('App/Tag');
+		return $this->belongsToMany('Tag');
 	}
 
 
 	// déclarations des propriétés
+	// 
+	// method nomduchamp() {
+	//     return $this->property('type', true);
+	// }
+	// 
+	// quel nom ?
+	// property
+	// content
+	// field
+	// 
+	// parametre :
+	// le type de donnée
+	// (optionnel) unique ou non
+	// 
+	// 
+	// 
 	public function url() {
-		return $this->int()->single();
+		return $this->content('string', true); 
+	}
+
+	public function age() {
+		return $this->content('integer', true);
 	}
 
 }
