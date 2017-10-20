@@ -24,11 +24,11 @@ return [
 		'strict' => true,
 		'engine' => 'InnoBD',
 	],
-	
+
 	/*
     | Versioning
     */
-	
+
 ];
 
 /* Exemple de connection
@@ -65,6 +65,12 @@ return [
 	'prefix' => '',
 	'schema' => 'public',
 	'sslmode' => 'prefer',
+],
+
+'connection' => [
+	'driver' => 'lowdb',
+	'database' => env('DB_DATABASE', database_path('database.sqlite')),
+	'prefix' => '',
 ],
 
 */
