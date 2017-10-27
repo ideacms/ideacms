@@ -45,4 +45,7 @@ class Post extends Model
 		return $this->content('integer', true);
 	}
 
+
+	// déclartions de la gestion en admin ?? soit ici ou dans un dossier à part
+
 }
